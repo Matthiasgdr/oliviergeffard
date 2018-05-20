@@ -1,3 +1,34 @@
-body{
-    margin:0;
+.container{
+    position: relative;
+    background-color: red;
+    margin: 0 auto;
+    width: 1050px;
+    img{
+        position: absolute;
+        top:0px;
+        left:0px;
+        z-index: -1;
+    }
+    nav{
+        color: $menucolor;
+        font-family: $menufont;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 30px;
+        p{
+            font-weight: bold;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 0 15px;
+                a{
+                    text-decoration: none;
+                    color: $menucolor;
+                }
+            }
+        }
+    }
 }
