@@ -1,34 +1,66 @@
 .container{
     position: relative;
-    background-color: red;
     margin: 0 auto;
-    width: 1050px;
-    img{
-        position: absolute;
-        top:0px;
-        left:0px;
-        z-index: -1;
-    }
-    nav{
+    width: 1024px;
+    header{
         color: $menucolor;
-        font-family: $menufont;
-        font-size: 0.9rem;
+        padding: 26px 42px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        padding: 22px 30px;
-        p{
-            font-weight: bold;
-        }
-        ul{
+        height: 565px;
+        box-sizing: border-box;
+        nav{
+            font-family: $pfont;
+            font-size: 0.80rem;
+            letter-spacing: 0.5px;
             display: flex;
-            list-style: none;
-            li{
-                margin: 0 15px;
-                a{
-                    text-decoration: none;
-                    color: $menucolor;
+            justify-content: space-between;
+            p{
+                font-weight: bold;
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 10px;
+                    a{
+                        text-decoration: none;
+                        color: $menucolor;
+                    }
                 }
             }
         }
+        .description{
+            max-width: 460px;
+            margin: 0 0 40px 0;
+            h1{
+                font-family: $titlefont;
+                font-size: 3.1rem;
+                margin: 0 0 15px 0;
+            }
+            p{
+                font-family: $pfont;
+                font-size: 1.13rem;
+                font-weight: 100;
+                letter-spacing: 1.2px;
+            }
+        }
+        .scroll{
+            font-size: 1.1rem;
+            font-family: $pfont;
+        }
+        img{
+            position: absolute;
+            top:0px;
+            left:0px;
+            z-index: -1;
+            width:1024px;
+            height:565px;
+        }
+
+    }
+    main{
+        height:1000px;
     }
 }
