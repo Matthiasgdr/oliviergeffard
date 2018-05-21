@@ -6,20 +6,34 @@
   .container header {
     color: #ffffff;
     padding: 26px 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     height: 565px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     .container header nav {
       font-family: "Montserrat", sans-serif;
       font-size: 0.80rem;
       letter-spacing: 0.5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between; }
       .container header nav p {
         font-weight: bold; }
       .container header nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         list-style: none; }
         .container header nav ul li {
@@ -51,6 +65,8 @@
       height: 565px; }
   .container main {
     height: 1000px; }
+    .container main .galerie h2 {
+      color: #6E6E6E; }
 
 * {
   margin: 0;
@@ -59,5 +75,3 @@
 body {
   margin: 0;
   font-size: 62.5%; }
-
-/*# sourceMappingURL=style.css.map */
