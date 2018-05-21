@@ -3,6 +3,10 @@
   position: relative;
   margin: 0 auto;
   width: 1024px; }
+  .container p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 100; }
   .container header {
     color: #ffffff;
     padding: 26px 42px;
@@ -48,11 +52,6 @@
         font-family: "Playfair Display", serif;
         font-size: 3.1rem;
         margin: 0 0 15px 0; }
-      .container header .description p {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1.13rem;
-        font-weight: 100;
-        letter-spacing: 1.2px; }
     .container header .scroll {
       font-size: 1.1rem;
       font-family: "Montserrat", sans-serif; }
@@ -64,9 +63,34 @@
       width: 1024px;
       height: 565px; }
   .container main {
-    height: 1000px; }
+    height: 1000px;
+    font-family: "Montserrat", sans-serif;
+    padding: 26px; }
     .container main .galerie h2 {
-      color: #6E6E6E; }
+      color: #D8D8D8;
+      margin-left: 15px;
+      font-size: 6rem; }
+    .container main .galerie .galerie_text {
+      width: 400px; }
+      .container main .galerie .galerie_text h3 {
+        color: #4A4A4A;
+        font-size: 2rem;
+        font-family: "Playfair Display", serif; }
+      .container main .galerie .galerie_text p {
+        color: #4A4A4A;
+        font-weight: 400;
+        width: 377px; }
+    .container main .galerie > p {
+      border: 1px solid #4A4A4A;
+      border-radius: 20px;
+      padding: 5px;
+      margin: 10px auto;
+      width: 300px;
+      text-align: center; }
+      .container main .galerie > p a {
+        color: #4A4A4A;
+        font-weight: 400;
+        text-decoration: none; }
 
 * {
   margin: 0;

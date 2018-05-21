@@ -2,6 +2,11 @@
     position: relative;
     margin: 0 auto;
     width: 1024px;
+    p{
+        font-family: $pfont;
+        font-size: 1.13rem;
+        font-weight: 100;
+    }
     header{
         color: $menucolor;
         padding: 26px 42px;
@@ -39,12 +44,6 @@
                 font-size: 3.1rem;
                 margin: 0 0 15px 0;
             }
-            p{
-                font-family: $pfont;
-                font-size: 1.13rem;
-                font-weight: 100;
-                letter-spacing: 1.2px;
-            }
         }
         .scroll{
             font-size: 1.1rem;
@@ -62,11 +61,46 @@
     }
     main{
         height:1000px;
+        font-family: $pfont;
+        padding: 26px;
         .galerie
         {
           h2
           {
-            color: #6E6E6E;
+            color: #D8D8D8;
+            margin-left: 15px;
+            font-size: 6rem;
+          }
+          .galerie_text
+          {
+            width: 400px;
+            h3
+            {
+              color: #4A4A4A;
+              font-size: 2rem;
+              font-family: $titlefont;
+            }
+            p
+            {
+              color: #4A4A4A;
+              font-weight: 400;
+              width: 377px;
+            }
+          }
+          >p
+          {
+            border: 1px solid #4A4A4A;
+            border-radius: 20px;
+            padding: 5px;
+            margin: 10px auto;
+            width: 300px;
+            text-align: center;
+            a
+            {
+              color: #4A4A4A;
+              font-weight: 400;
+              text-decoration: none;
+            }
           }
         }
     }
