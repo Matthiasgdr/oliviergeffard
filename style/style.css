@@ -92,6 +92,53 @@
         font-weight: 400;
         text-decoration: none; }
 
+.contener {
+  position: relative;
+  margin: 0 auto;
+  width: 1024px; }
+  .contener p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.13rem;
+    font-weight: 100; }
+  .contener header {
+    color: #000000;
+    padding: 26px 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 565px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .contener header nav {
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.80rem;
+      letter-spacing: 0.5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contener header nav p {
+        font-weight: bold; }
+      .contener header nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none; }
+        .contener header nav ul li {
+          margin: 0 10px; }
+          .contener header nav ul li a {
+            text-decoration: none;
+            color: #000000; }
+
 * {
   margin: 0;
   padding: 0; }

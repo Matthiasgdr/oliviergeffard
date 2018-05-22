@@ -1,0 +1,40 @@
+.contener{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    p{
+        font-family: $pfont;
+        font-size: 1.13rem;
+        font-weight: 100;
+    }
+    header{
+        color: $menucolor2;
+        padding: 26px 42px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 565px;
+        box-sizing: border-box;
+        nav{
+            font-family: $pfont;
+            font-size: 0.80rem;
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-weight: bold;
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 0 10px;
+                    a{
+                        text-decoration: none;
+                        color: $menucolor2;
+                    }
+                }
+            }
+        }
+      }
+    }
