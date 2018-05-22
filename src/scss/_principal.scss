@@ -1,7 +1,6 @@
 .container{
     position: relative;
     margin: 0 auto;
-    width: 1024px;
     p{
         font-family: $pfont;
         font-size: 1.13rem;
@@ -46,16 +45,30 @@
             }
         }
         .scroll{
-            font-size: 1.1rem;
             font-family: $pfont;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 40px;
+            margin: 0 auto;
+            img
+            {
+              width: 10px;
+              height: 5px;
+              margin: 0 auto;
+            }
+            p
+            {
+              font-size: 0.8rem;
+            }
         }
-        img{
+        .header_bg{
             position: absolute;
             top:0px;
             left:0px;
             z-index: -1;
-            width:1024px;
-            height:565px;
+            width:100%;
+            height:566px;
         }
 
     }
