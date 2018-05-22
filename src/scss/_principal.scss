@@ -76,14 +76,21 @@
         height:1000px;
         font-family: $pfont;
         padding: 26px;
+        h2
+        {
+          color: #EEEEEE;
+          margin-left: 15px;
+          font-size: 6rem;
+        }
+        h3
+        {
+          color: #4A4A4A;
+          font-size: 2rem;
+          font-family: $titlefont;
+          margin-bottom: 20px;
+        }
         .galerie
         {
-          h2
-          {
-            color: #EEEEEE;
-            margin-left: 15px;
-            font-size: 6rem;
-          }
           .galerie_contenue
           {
             display: flex;
@@ -99,7 +106,7 @@
             {
               width: 60%;
               height: 60%;
-              top: 40px;
+              top: 30px;
               left: 30px;
               position: relative;
               filter: blur(0.4rem);
@@ -109,13 +116,6 @@
             {
               align-self: center;
               margin-left: 80px;
-              h3
-              {
-                color: #4A4A4A;
-                font-size: 2rem;
-                font-family: $titlefont;
-                margin-bottom: 20px;
-              }
               p
               {
                 color: #4A4A4A;
@@ -142,6 +142,37 @@
               width: 15px;
               margin-right: 5px;
               margin-bottom: -2px;
+            }
+          }
+        }
+        .carnets
+        {
+          margin-top: 200px;
+          img
+          {
+            width: 40%;
+            height: 20%;
+          }
+          .carnets_contenue
+          {
+            display: flex;
+            flex-direction: row;
+            .carnets_text
+            {
+              display: flex;
+              flex-direction: column;
+              align-self: center;
+              width: 300px;
+              margin-left: 200px;
+              a
+              {
+                text-decoration: none;
+                color: #4A4A4A;
+                font-weight: lighter;
+                width: 350px;
+                font-size: 1.13rem;
+                margin-top: 20px;
+              }
             }
           }
         }

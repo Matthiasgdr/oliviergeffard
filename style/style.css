@@ -82,10 +82,15 @@
     height: 1000px;
     font-family: "Montserrat", sans-serif;
     padding: 26px; }
-    .container main .galerie h2 {
+    .container main h2 {
       color: #EEEEEE;
       margin-left: 15px;
       font-size: 6rem; }
+    .container main h3 {
+      color: #4A4A4A;
+      font-size: 2rem;
+      font-family: "Playfair Display", serif;
+      margin-bottom: 20px; }
     .container main .galerie .galerie_contenue {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -102,7 +107,7 @@
       .container main .galerie .galerie_contenue img:nth-child(2) {
         width: 60%;
         height: 60%;
-        top: 40px;
+        top: 30px;
         left: 30px;
         position: relative;
         -webkit-filter: blur(0.4rem);
@@ -112,11 +117,6 @@
         -ms-flex-item-align: center;
         align-self: center;
         margin-left: 80px; }
-        .container main .galerie .galerie_contenue .galerie_text h3 {
-          color: #4A4A4A;
-          font-size: 2rem;
-          font-family: "Playfair Display", serif;
-          margin-bottom: 20px; }
         .container main .galerie .galerie_contenue .galerie_text p {
           color: #4A4A4A;
           font-weight: lighter;
@@ -137,6 +137,38 @@
         width: 15px;
         margin-right: 5px;
         margin-bottom: -2px; }
+    .container main .carnets {
+      margin-top: 200px; }
+      .container main .carnets img {
+        width: 40%;
+        height: 20%; }
+      .container main .carnets .carnets_contenue {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; }
+        .container main .carnets .carnets_contenue .carnets_text {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-item-align: center;
+          align-self: center;
+          width: 300px;
+          margin-left: 200px; }
+          .container main .carnets .carnets_contenue .carnets_text a {
+            text-decoration: none;
+            color: #4A4A4A;
+            font-weight: lighter;
+            width: 350px;
+            font-size: 1.13rem;
+            margin-top: 20px; }
 
 * {
   margin: 0;
