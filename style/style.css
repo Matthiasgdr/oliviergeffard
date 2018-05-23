@@ -169,6 +169,13 @@
             width: 350px;
             font-size: 1.13rem;
             margin-top: 20px; }
+            .container main .carnets .carnets_contenue .carnets_text a img {
+              width: 15px;
+              -webkit-transition: all 0.2s;
+              -o-transition: all 0.2s;
+              transition: all 0.2s; }
+          .container main .carnets .carnets_contenue .carnets_text :hover img {
+            margin-left: 10px; }
 
 * {
   margin: 0;
