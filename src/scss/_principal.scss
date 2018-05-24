@@ -185,5 +185,41 @@
             }
           }
         }
+        .cours
+        {
+          margin-top: 100px;
+          .cours_contenue
+          {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 60px;
+            img
+            {
+              width: 20%;
+              height: 10%;
+            }
+            p
+            {
+              width: 40%;
+            }
+          }
+          a
+          {
+            text-decoration: none;
+            color: #4A90E2;
+            font-weight: lighter;
+            font-size: 1rem;
+            border: 0.5px solid #4A90E2;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 90px auto;
+            text-align: center;
+            position: absolute;
+            left: 40%;
+          }
+        }
     }
 }

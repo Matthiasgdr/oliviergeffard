@@ -176,6 +176,39 @@
               transition: all 0.2s; }
           .container main .carnets .carnets_contenue .carnets_text :hover img {
             margin-left: 10px; }
+    .container main .cours {
+      margin-top: 100px; }
+      .container main .cours .cours_contenue {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 60px; }
+        .container main .cours .cours_contenue img {
+          width: 20%;
+          height: 10%; }
+        .container main .cours .cours_contenue p {
+          width: 40%; }
+      .container main .cours a {
+        text-decoration: none;
+        color: #4A90E2;
+        font-weight: lighter;
+        font-size: 1rem;
+        border: 0.5px solid #4A90E2;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin: 90px auto;
+        text-align: center;
+        position: absolute;
+        left: 40%; }
 
 * {
   margin: 0;
