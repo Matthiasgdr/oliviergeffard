@@ -5,7 +5,7 @@
   .container p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.13rem;
-    font-weight: 100; }
+    font-weight: normal; }
   .container header {
     color: #ffffff;
     padding: 26px 42px;
@@ -88,7 +88,7 @@
       font-size: 6rem; }
     .container main h3 {
       color: #4A4A4A;
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-family: "Playfair Display", serif;
       margin-bottom: 20px; }
     .container main .galerie .galerie_contenue {
@@ -119,7 +119,6 @@
         margin-left: 80px; }
         .container main .galerie .galerie_contenue .galerie_text p {
           color: #4A4A4A;
-          font-weight: lighter;
           width: 350px; }
     .container main .galerie a {
       color: #4A4A4A;
@@ -132,11 +131,30 @@
       margin: 90px auto;
       text-align: center;
       position: absolute;
-      left: 40%; }
+      left: 40%;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
       .container main .galerie a img {
         width: 15px;
         margin-right: 5px;
         margin-bottom: -2px; }
+      .container main .galerie a img:nth-child(2) {
+        position: absolute;
+        left: 20px;
+        top: 11px;
+        opacity: 0;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+    .container main .galerie a:hover {
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      background: #4A4A4A; }
+      .container main .galerie a:hover img:nth-child(1) {
+        opacity: 0; }
+      .container main .galerie a:hover img:nth-child(2) {
+        opacity: 1; }
     .container main .carnets {
       margin-top: 200px; }
       .container main .carnets img {
@@ -165,7 +183,6 @@
           .container main .carnets .carnets_contenue .carnets_text a {
             text-decoration: none;
             color: #4A4A4A;
-            font-weight: lighter;
             width: 350px;
             font-size: 1.13rem;
             margin-top: 20px; }
@@ -200,7 +217,6 @@
       .container main .cours a {
         text-decoration: none;
         color: #4A90E2;
-        font-weight: lighter;
         font-size: 1rem;
         border: 0.5px solid #4A90E2;
         border-radius: 20px;
@@ -208,7 +224,14 @@
         margin: 90px auto;
         text-align: center;
         position: absolute;
-        left: 40%; }
+        left: 40%;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+      .container main .cours a:hover {
+        border: 0.5px solid #FFFFFF;
+        color: #FFFFFF;
+        background: #4A90E2; }
 
 * {
   margin: 0;
