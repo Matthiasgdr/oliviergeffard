@@ -206,12 +206,15 @@
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
         width: 90%;
         margin-left: 20px;
         margin-top: 60px; }
         .container main .cours .cours_contenue img {
-          width: 20%;
-          height: 10%; }
+          width: 30%;
+          height: 20%; }
         .container main .cours .cours_contenue p {
           width: 40%; }
       .container main .cours a {
