@@ -74,14 +74,21 @@
         height:1000px;
         font-family: $pfont;
         padding: 26px;
+        h2
+        {
+          color: #EEEEEE;
+          margin-left: 15px;
+          font-size: 6rem;
+        }
+        h3
+        {
+          color: #4A4A4A;
+          font-size: 2.5rem;
+          font-family: $titlefont;
+          margin-bottom: 20px;
+        }
         .galerie
         {
-          h2
-          {
-            color: #EEEEEE;
-            margin-left: 15px;
-            font-size: 6rem;
-          }
           .galerie_contenue
           {
             display: flex;
@@ -97,7 +104,7 @@
             {
               width: 60%;
               height: 60%;
-              top: 40px;
+              top: 30px;
               left: 30px;
               position: relative;
               filter: blur(0.4rem);
@@ -107,17 +114,9 @@
             {
               align-self: center;
               margin-left: 80px;
-              h3
-              {
-                color: #4A4A4A;
-                font-size: 2rem;
-                font-family: $titlefont;
-                margin-bottom: 20px;
-              }
               p
               {
                 color: #4A4A4A;
-                font-weight: lighter;
                 width: 350px;
               }
             }
@@ -135,12 +134,118 @@
             text-align: center;
             position: absolute;
             left: 40%;
+            transition: all 0.2s;
             img
             {
               width: 15px;
               margin-right: 5px;
               margin-bottom: -2px;
             }
+            img:nth-child(2)
+            {
+              position: absolute;
+              left: 20px;
+              top: 11px;
+              opacity: 0;
+              transition: all 0.2s;
+            }
+          }
+          a:hover
+          {
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            background: #4A4A4A;
+            img:nth-child(1)
+            {
+              opacity: 0;
+            }
+            img:nth-child(2)
+            {
+              opacity: 1;
+            }
+          }
+        }
+        .carnets
+        {
+          margin-top: 200px;
+          img
+          {
+            width: 40%;
+            height: 20%;
+          }
+          .carnets_contenue
+          {
+            display: flex;
+            flex-direction: row;
+            .carnets_text
+            {
+              display: flex;
+              flex-direction: column;
+              align-self: center;
+              width: 300px;
+              margin-left: 200px;
+              a
+              {
+                text-decoration: none;
+                color: #4A4A4A;
+                width: 350px;
+                font-size: 1.13rem;
+                margin-top: 20px;
+                img
+                {
+                  width: 15px;
+                  transition: all 0.2s;
+                }
+              }
+              :hover img
+              {
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        .cours
+        {
+          margin-top: 100px;
+          .cours_contenue
+          {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 60px;
+            img
+            {
+              width: 30%;
+              height: 20%;
+            }
+            p
+            {
+              width: 40%;
+            }
+          }
+          a
+          {
+            text-decoration: none;
+            color: #4A90E2;
+            font-size: 1rem;
+            border: 0.5px solid #4A90E2;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 90px auto;
+            text-align: center;
+            position: absolute;
+            left: 40%;
+            transition: all 0.2s;
+          }
+          a:hover
+          {
+            border: 0.5px solid #FFFFFF;
+            color: #FFFFFF;
+            background: #4A90E2;
+          }
         }
     }
 }
