@@ -1,10 +1,7 @@
-.container{
-    position: relative;
-    margin: 0 auto;
+
     p{
         font-family: $pfont;
         font-size: 1.13rem;
-        font-weight: 100;
     }
     header{
         color: $menucolor;
@@ -38,6 +35,7 @@
         .description{
             max-width: 460px;
             margin: 0 0 40px 0;
+            font-weight: 100;
             h1{
                 font-family: $titlefont;
                 font-size: 3.1rem;
@@ -143,7 +141,6 @@
               margin-right: 5px;
               margin-bottom: -2px;
             }
-          }
         }
     }
 }
