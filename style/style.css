@@ -123,6 +123,9 @@ footer {
     display: flex;
     justify-content: center;
     font-weight: 400; }
+    footer .reseau a {
+      color: white;
+      text-decoration: none; }
     footer .reseau div {
       display: flex;
       align-items: center;
@@ -130,10 +133,11 @@ footer {
       border-radius: 30px;
       padding: 10px 20px;
       margin: 0 15px;
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      transition: all 0.2s; }
       footer .reseau div i {
         margin-right: 12px; }
-    footer .reseau .instagram {
+    footer .reseau div:hover {
       background-color: white;
       color: #4A4A4A;
       box-shadow: 0px 5px 10px #0a0a0a; }
@@ -141,8 +145,15 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 80px 0 0 0; }
-    footer .bottom .mail {
+    footer .bottom .mail_network {
+      display: flex;
+      align-items: center;
       font-size: 1.2rem; }
+      footer .bottom .mail_network i {
+        margin: 0 10px;
+        color: white; }
+      footer .bottom .mail_network .mail {
+        font-size: 1.2rem; }
     footer .bottom .mention {
       font-size: 0.8rem; }
 
@@ -153,13 +164,18 @@ footer {
   margin: 50px 0; }
   #instafeed .instaimg {
     margin-bottom: 30px; }
-    #instafeed .instaimg img {
-      max-width: 250px;
-      margin: 0 20px 0 20px; }
-  #instafeed .instaimg img:hover {
-    opacity: 0.8;
-    -moz-opacity: 0.8;
-    -webkit-opacity: 0.8; }
+
+.instaimg img:hover {
+  transform: scale(1.1);
+  transform-origin: center; }
+  .instaimg img:hover::after {
+    opacity: 1; }
+
+.img-fluid {
+  position: relative;
+  max-width: 250px;
+  margin: 0 20px 0 20px;
+  transition: all 0.3s; }
 
 * {
   margin: 0;
