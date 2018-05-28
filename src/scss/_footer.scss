@@ -14,10 +14,6 @@ footer{
         display: flex;
         justify-content: center;
         font-weight: 400;
-        a{
-            color: white;
-            text-decoration: none;
-        }
         div{
             display: flex;
             align-items: center;
@@ -26,12 +22,11 @@ footer{
             padding:10px 20px;
             margin: 0 15px;
             font-size: 1.2rem;
-            transition: all 0.2s;
             i{
                 margin-right: 12px;
             }
         }
-        div:hover{
+        .instagram{
             background-color: white;
             color: $grey;
             box-shadow: 0px 5px 10px rgb(10,10,10);
@@ -41,21 +36,11 @@ footer{
         display: flex;
         justify-content: space-between;
         margin: 80px 0 0 0;
-        .mail_network{
-            display: flex;
-            align-items: center;
+        .mail{
             font-size: 1.2rem;
-            i{
-                margin: 0 10px;
-                color: white;
-            }
-            .mail{
-                font-size: 1.2rem;
-            }
         }
         .mention{
             font-size: 0.8rem;
-    }
-
+        }
     }
 }

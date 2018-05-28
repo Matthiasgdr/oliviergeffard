@@ -5,18 +5,14 @@
 	margin: 50px 0;
 	.instaimg {
 		margin-bottom:30px;
+		img {
+			max-width: 250px;
+			margin: 0 20px 0 20px;
 		}
 	}
 	.instaimg img:hover {
-		transform: scale(1.1);
-		transform-origin: center;
-		&::after {
-			opacity: 1;
-		}
+		opacity:0.8;
+		-moz-opacity:0.8;
+		-webkit-opacity:0.8;
 	}
-.img-fluid {
-	position: relative;
-	max-width: 250px;
-	margin: 0 20px 0 20px;
-	transition: all 0.3s;
 }
