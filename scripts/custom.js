@@ -25,4 +25,16 @@ $(document).ready(function() {
     });
 
 
+
+
 });
+
+document.addEventListener("scroll", function() {
+  let text = document.querySelectorAll('div[class$=_text]'),
+      scroll = document.querySelector('html').scrollTop
+  for (let i = 0;i<text.length;i++)
+  {
+    text[i].style.transform = `translateY(${scroll * .20}px)`
+    console.log(scroll)
+  }
+})
