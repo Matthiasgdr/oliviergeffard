@@ -24,16 +24,19 @@ header {
       list-style: none; }
       header nav ul li {
         margin: 0 10px; }
-      header nav ul a {
-        text-decoration: none;
-        color: #ffffff;
-        position: relative; }
-        header nav ul a:hover::after {
-          position: absolute;
-          bottom: 0px;
-          left: 0px;
-          height: 1px;
-          background-color: white;
+        header nav ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          position: relative; }
+          header nav ul li a::after {
+            content: '';
+            position: absolute;
+            background-color: white;
+            bottom: -5px;
+            left: 0;
+            width: 0%;
+            height: 2px; }
+        header nav ul li a:hover a:after {
           width: 100%; }
 
 .description {
@@ -244,14 +247,22 @@ footer {
   justify-content: center;
   margin: 50px 0; }
   #instafeed .instaimg {
-    margin-bottom: 30px; }
-    #instafeed .instaimg img {
-      max-width: 220px;
-      margin: 0 20px 0 20px;
+    margin: 30px 10px; }
+    #instafeed .instaimg .squaring {
+      width: 230px;
+      height: 230px;
+      overflow: hidden;
       transition: all 0.3s; }
-  #instafeed .instaimg img:hover {
-    transform: scale(1.1);
-    transform-origin: center; }
+      #instafeed .instaimg .squaring:hover {
+        transform: scale(1.1);
+        transform-origin: center; }
+      #instafeed .instaimg .squaring img {
+        max-width: 230px;
+        margin: 0 20px 0 20px;
+        transition: all 0.3s; }
+        #instafeed .instaimg .squaring img:hover {
+          transform: scale(1.1);
+          transform-origin: center; }
 
 * {
   margin: 0;

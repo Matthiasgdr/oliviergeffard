@@ -1,9 +1,8 @@
-
-    p{
+p{
         font-family: $pfont;
         font-size: 1.13rem;
-    }
-    header{
+}
+header{
         color: $menucolor;
         padding: 26px 42px;
         display: flex;
@@ -24,31 +23,28 @@
                 display: flex;
                 list-style: none;
                 li{
-
                     margin: 0 10px;
-                    }
-                    li:hover{
-
-                    }
                     a{
                         text-decoration: none;
                         color: $menucolor;
                         position: relative;
-                        &:hover{
-
-                            &::after{
+                        &::after{
+                            content: '';
                             position: absolute;
-                            bottom:0px;
-                            left:0px;
-                            height: 1px;
                             background-color: white;
-                            width: 100%;
-                            }
+                            bottom:-5px;
+                            left:0;
+                            width:0%;
+                            height:2px;
                         }
+                    }
+                    a:hover a:after{
+                        width:100%;
                     }
                 }
             }
         }
+    }
         .description{
             max-width: 460px;
             margin: 0 0 40px 0;
