@@ -210,13 +210,17 @@
     .contener .button a {
       font-family: "Montserrat", sans-serif;
       color: #4A90E2;
-      font-size: 1.7rem;
+      font-size: 1rem;
       text-decoration: none;
-      border: 2px solid #4A90E2;
-      border-radius: 40px;
+      border: 0.5px solid #4A90E2;
+      border-radius: 20px;
       padding: 10px 20px;
       margin: 70px auto;
       text-align: center; }
+    .contener .button a:hover {
+      border: 0.5px solid #FFFFFF;
+      color: #FFFFFF;
+      background: #4A90E2; }
 
 footer {
   font-family: "Montserrat", sans-serif;
@@ -235,7 +239,7 @@ footer {
   flex-direction: row; }
   footer .leftFooter {
     width: 670px;
-    font-size: 1.6rem; }
+    font-size: 1.3rem; }
     footer .leftFooter img {
       width: 10%;
       height: 20%; }
