@@ -138,9 +138,10 @@
             text-decoration: none;
             color: #000000; }
   .contener .bigMenu {
-    padding: 26px 0px 26px 42px;
+    max-width: 1550px;
+    padding: 0 0 0 5%;
     position: relative;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Playfair Display", serif; }
     .contener .bigMenu ul {
       position: inherit;
       display: -webkit-box;
@@ -153,22 +154,53 @@
       justify-content: space-between; }
       .contener .bigMenu ul li a {
         text-decoration: none;
-        color: #000000; }
+        color: #a3a3a3; }
+      .contener .bigMenu ul li:hover a {
+        color: black; }
   .contener .imagesAquarelle {
+    margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 26px 42px;
-    -webkit-box-orient: horizontal;
+    max-width: 2200px;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-    .contener .imagesAquarelle img {
-      width: 28%;
-      height: 28%; }
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .contener .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .contener .line .trois {
+      max-width: 600px;
+      max-height: 300px;
+      overflow: hidden;
+      margin: 5px;
+      position: relative; }
+      .contener .line .trois img {
+        display: block;
+        position: relative;
+        width: 100%;
+        vertical-align: middle;
+        bottom: 100px; }
+      .contener .line .trois .optional {
+        bottom: 0px; }
+      .contener .line .trois .bigger {
+        width: 165%; }
+    .contener .line .none {
+      display: none; }
+    .contener .line .bigImg {
+      max-width: 100%;
+      max-height: 50%;
+      overflow: visible;
+      margin: 10px; }
   .contener .button {
     display: -webkit-box;
     display: -ms-flexbox;
