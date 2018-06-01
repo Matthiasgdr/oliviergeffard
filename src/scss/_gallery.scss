@@ -38,33 +38,37 @@
       }
       .bigMenu{
         max-width: 1550px;
-        padding: 0 0 0 5%;
         position: relative;
         font-family: $titlefont;
         ul{
             position: inherit;
             display: flex;
-            font-size: 4.8rem;
             list-style: none;
-            justify-content: space-between;
+            justify-content: flex-start;
             li{
                 a{
                     text-decoration: none;
                     color: #a3a3a3;
+                    font-size: 4rem;
+                    margin-left: 20px;
                 }
             }
-            li:hover{
-              a{
+            a:hover, a:focus{
                   color: black;
-                }
               }
             }
       }
       .imagesAquarelle{
         margin: 0;
         display: flex;
-        max-width: 2200px;
-        flex-direction: column;
+        max-width: 2000px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img
+        {
+          height: 300px;
+        }
 }
         .line{
         display: flex;

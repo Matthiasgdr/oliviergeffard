@@ -139,7 +139,6 @@
             color: #000000; }
   .contener .bigMenu {
     max-width: 1550px;
-    padding: 0 0 0 5%;
     position: relative;
     font-family: "Playfair Display", serif; }
     .contener .bigMenu ul {
@@ -147,26 +146,34 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      font-size: 4.8rem;
       list-style: none;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; }
       .contener .bigMenu ul li a {
         text-decoration: none;
-        color: #a3a3a3; }
-      .contener .bigMenu ul li:hover a {
+        color: #a3a3a3;
+        font-size: 4rem;
+        margin-left: 20px; }
+      .contener .bigMenu ul a:hover, .contener .bigMenu ul a:focus {
         color: black; }
   .contener .imagesAquarelle {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    max-width: 2200px;
-    -webkit-box-orient: vertical;
+    max-width: 2000px;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .contener .imagesAquarelle img {
+      height: 300px; }
   .contener .line {
     display: -webkit-box;
     display: -ms-flexbox;
