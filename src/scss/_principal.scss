@@ -260,3 +260,65 @@ header{
           }
         }
 }
+footer{
+    background-color: $grey;
+    color:$menucolor;
+    .marge{
+        padding: 50px;
+    }
+    h2{
+        font-family: $pfont;
+        font-weight: 400;
+        font-size: 3rem;
+        opacity: 0.4;
+    }
+    .reseau{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            border: 1px solid white;
+            border-radius: 30px;
+            padding:10px 20px;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            transition: all 0.2s;
+            i{
+                margin-right: 12px;
+            }
+        }
+        div:hover{
+            background-color: white;
+            color: $grey;
+            box-shadow: 0px 5px 10px rgb(10,10,10);
+        }
+    }
+    .bottom{
+        font-family: $pfont;
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0 0 0;
+        .mail_network{
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            i{
+                margin: 0 10px;
+                color: white;
+            }
+            .mail{
+                font-size: 1.2rem;
+            }
+        }
+        .mention{
+            font-size: 0.8rem;
+    }
+
+    }
+}

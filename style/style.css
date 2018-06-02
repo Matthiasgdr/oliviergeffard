@@ -251,6 +251,74 @@ main {
       color: #FFFFFF;
       background: #4A90E2; }
 
+footer {
+  background-color: #4A4A4A;
+  color: #ffffff; }
+  footer .marge {
+    padding: 50px; }
+  footer h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    opacity: 0.4; }
+  footer .reseau {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 400; }
+    footer .reseau a {
+      color: white;
+      text-decoration: none; }
+    footer .reseau div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border: 1px solid white;
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin: 0 15px;
+      font-size: 1.2rem;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
+      footer .reseau div i {
+        margin-right: 12px; }
+    footer .reseau div:hover {
+      background-color: white;
+      color: #4A4A4A;
+      -webkit-box-shadow: 0px 5px 10px #0a0a0a;
+      box-shadow: 0px 5px 10px #0a0a0a; }
+  footer .bottom {
+    font-family: "Montserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 80px 0 0 0; }
+    footer .bottom .mail_network {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 1.2rem; }
+      footer .bottom .mail_network i {
+        margin: 0 10px;
+        color: white; }
+      footer .bottom .mail_network .mail {
+        font-size: 1.2rem; }
+    footer .bottom .mention {
+      font-size: 0.8rem; }
+
 #instafeed {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,7 +442,9 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 20px 40px; }
+  margin: 60px 40px 20px 40px;
+  background: none;
+  color: #4A4A4A; }
   .contener_curiosite footer .mail_network {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -89,7 +89,9 @@
         font-family: $pfont;
         display: flex;
         justify-content: space-between;
-        margin: 20px 40px;
+        margin: 60px 40px 20px 40px;
+        background: none;
+        color: #4A4A4A;
         .mail_network{
             display: flex;
             align-items: center;
