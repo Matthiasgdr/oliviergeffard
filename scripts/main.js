@@ -2,7 +2,7 @@ let natures = document.querySelector('.natures'), ville = document.querySelector
 let naturesHover = oeuvres.natures
 let villeHover = oeuvres.ville
 let danseHover = oeuvres.danse
-let textGalery = document.querySelectorAll('.imagesAquarelle .line .hover .galery_text')
+let textGalery = document.querySelectorAll('.imagesAquarelle .line .hover .galery_text p')
 
 natures.addEventListener(
   "click",
