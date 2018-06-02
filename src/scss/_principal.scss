@@ -33,14 +33,16 @@ header{
                             position: absolute;
                             background-color: white;
                             bottom:-5px;
-                            left:0;
+                            right:0;
                             width:0%;
                             height:2px;
+                            transition: all 0.2s;
                         }
                     }
-                    a:hover a:after{
-                        width:100%;
-                    }
+                }
+                li:hover a::after{
+                    width:100%;
+                    left:0;
                 }
             }
         }
