@@ -33,11 +33,13 @@ header {
             position: absolute;
             background-color: white;
             bottom: -5px;
-            left: 0;
+            right: 0;
             width: 0%;
-            height: 2px; }
-        header nav ul li a:hover a:after {
-          width: 100%; }
+            height: 2px;
+            transition: all 0.2s; }
+      header nav ul li:hover a::after {
+        width: 100%;
+        left: 0; }
 
 .description {
   max-width: 460px;
@@ -259,7 +261,7 @@ footer {
       #instafeed .instaimg .squaring img {
         max-width: 230px;
         margin: 0 20px 0 20px;
-        transition: all 0.3s; }
+        transition: all 1s; }
         #instafeed .instaimg .squaring img:hover {
           transform: scale(1.1);
           transform-origin: center; }
