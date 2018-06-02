@@ -7,13 +7,14 @@ let oeuvres = {
          "nature morte bouteille Toscane",
          "nature morte rouge Toscane",
          "nature morte Toscane",
-         "plaine fleuve toscane",
+         "plaine fleuve Toscane",
          "pots aquarelle Joelle",
          "pots encre nature morte",
          "pots nature morte sepia",
          "St Sorlin Deconac"
       ],
       "ville":[
+        "",
         "gare banlieue Paris",
         "ville tempera",
         "ville voiture",

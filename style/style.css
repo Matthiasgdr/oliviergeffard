@@ -181,8 +181,25 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-    .contener .line img {
-      height: 320px; }
+    .contener .line .hover {
+      position: relative; }
+      .contener .line .hover img {
+        height: 320px; }
+      .contener .line .hover .galery_text {
+        position: absolute;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 90%;
+        -webkit-transition: .5s ease;
+        -o-transition: .5s ease;
+        transition: .5s ease;
+        opacity: 0;
+        color: white;
+        padding: 5%;
+        text-align: center; }
+    .contener .line .hover:hover .galery_text {
+      opacity: 1; }
   .contener .line:nth-child(2) img {
     height: 450px; }
   .contener .line:nth-child(3) img {
