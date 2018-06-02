@@ -50,6 +50,8 @@ header {
             right: 0;
             width: 0%;
             height: 2px;
+            -webkit-transition: all 0.2s;
+            -o-transition: all 0.2s;
             transition: all 0.2s; }
       header nav ul li:hover a::after {
         width: 100%;
@@ -346,8 +348,9 @@ footer {
       #instafeed .instaimg .squaring img {
         max-width: 230px;
         margin: 0 20px 0 20px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
         transition: all 1s; }
-
         #instafeed .instaimg .squaring img:hover {
           -webkit-transform: scale(1.1);
           -ms-transform: scale(1.1);
@@ -355,6 +358,10 @@ footer {
           -webkit-transform-origin: center;
           -ms-transform-origin: center;
           transform-origin: center; }
+
+.contener_curiosite header a {
+  color: black;
+  text-decoration: none; }
 
 * {
   margin: 0;
