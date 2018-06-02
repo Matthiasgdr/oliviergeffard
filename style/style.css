@@ -217,24 +217,25 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
-  width: 1340px;
-  padding: 26px 42px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row; }
-  footer .leftFooter {
-    width: 670px;
-    font-size: 1.3rem; }
-    footer .leftFooter img {
-      width: 10%;
-      height: 20%; }
-  footer .rightFooter {
-    font-size: 0.9rem; }
+  margin: 20px 40px; }
+  footer .mail_network {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.2rem; }
+    footer .mail_network i {
+      margin: 0 10px;
+      color: #4A4A4A; }
+    footer .mail_network .mail {
+      font-size: 1.2rem; }
+  footer .mention {
+    font-size: 0.8rem; }
 
 * {
   margin: 0;
