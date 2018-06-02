@@ -5,6 +5,11 @@
 @import "instafeed";
 @import "carnet";
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 *{
     margin:0;
     padding: 0;

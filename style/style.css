@@ -306,13 +306,18 @@ footer {
 .image1 {
   margin: 0 50px; }
   .image1 h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
     font-size: 2rem;
     margin-top: 100px; }
   .image1 img {
     height: 400px;
     display: block;
     width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 * {
   margin: 0;
