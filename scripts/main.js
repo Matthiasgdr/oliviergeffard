@@ -11,6 +11,7 @@ natures.addEventListener(
     let naturesNames = oeuvres.natures
     let current = document.querySelector('.current')
     let divs = document.querySelectorAll('.empty')
+    let lines = document.querySelectorAll('.line')
     for (var i = 0; i < img.length; i++) {
       img[i].setAttribute('src',``)
       img[i].setAttribute('alt',``)
