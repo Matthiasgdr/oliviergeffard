@@ -814,33 +814,32 @@ footer {
       border: 0.5px solid #FFFFFF;
       color: #FFFFFF;
       background: #4A90E2; }
-
-footer {
-  font-family: "Montserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 60px 40px 20px 40px;
-  background: none;
-  color: #4A4A4A; }
-  footer .mail_network {
+  .contener footer {
+    font-family: "Montserrat", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 1.2rem; }
-    footer .mail_network i {
-      margin: 0 10px;
-      color: #4A4A4A; }
-    footer .mail_network .mail {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 60px 40px 20px 40px;
+    background: none;
+    color: #4A4A4A; }
+    .contener footer .mail_network {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       font-size: 1.2rem; }
-  footer .mention {
-    font-size: 0.8rem; }
+      .contener footer .mail_network i {
+        margin: 0 10px;
+        color: #4A4A4A; }
+      .contener footer .mail_network .mail {
+        font-size: 1.2rem; }
+    .contener footer .mention {
+      font-size: 0.8rem; }
 
 a {
   text-decoration: none;

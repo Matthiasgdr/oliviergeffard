@@ -146,28 +146,28 @@
             background: #4A90E2;
           }
         }
-}
-footer{
-    font-family: $pfont;
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 40px 20px 40px;
-    background: none;
-    color: #4A4A4A;
-    .mail_network{
-        display: flex;
-        align-items: center;
-        font-size: 1.2rem;
-        i{
-            margin: 0 10px;
+        footer{
+            font-family: $pfont;
+            display: flex;
+            justify-content: space-between;
+            margin: 60px 40px 20px 40px;
+            background: none;
             color: #4A4A4A;
+            .mail_network{
+                display: flex;
+                align-items: center;
+                font-size: 1.2rem;
+                i{
+                    margin: 0 10px;
+                    color: #4A4A4A;
+                }
+                .mail{
+                    font-size: 1.2rem;
+                }
+            }
+            .mention{
+                font-size: 0.8rem;
         }
-        .mail{
-            font-size: 1.2rem;
-        }
-    }
-    .mention{
-        font-size: 0.8rem;
-}
 
+        }
 }
