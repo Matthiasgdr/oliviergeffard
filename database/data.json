@@ -1,0 +1,32 @@
+let oeuvres = {
+      "natures":[
+         "batelier192",
+         "campagne anglaise",
+         "carte MDA188",
+         "monastère moine bleu",
+         "nature morte bouteille Toscane",
+         "nature morte rouge Toscane",
+         "nature morte Toscane",
+         "plaine fleuve Toscane",
+         "pots aquarelle Joelle",
+         "pots encre nature morte",
+         "pots nature morte sepia",
+         "St Sorlin Deconac"
+      ],
+      "ville":[
+        "",
+        "gare banlieue Paris",
+        "ville tempera",
+        "ville voiture",
+        "ville vue des toits cheminée"
+      ],
+      "danse":[
+        "danse constellation",
+        "danse Pompei mauve",
+        "danse Pompei rencontre etoiles",
+        "danse Pompei",
+        "danse Pompei Supernova",
+        "DSCF5536",
+        "DSCF5537"
+      ]
+}
