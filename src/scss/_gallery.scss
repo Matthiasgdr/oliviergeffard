@@ -22,6 +22,11 @@
             justify-content: space-between;
             p{
                 font-weight: bold;
+                a
+                {
+                  color: black;
+                  text-decoration: none;
+                }
             }
             ul{
                 display: flex;
@@ -73,14 +78,13 @@
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          height: 68vh;
-          width: 90%;
+          width: 95%;
           .hover{
             position: relative;
 
             img
             {
-              height: 100%;
+              height: 38vh;
             }
             .galery_text{
               position: absolute;
@@ -98,6 +102,28 @@
           .hover:hover .galery_text{
             opacity: 1;
           }
+      }
+
+      .line:nth-child(2)
+      {
+        img
+        {
+          height: 56vh;
+        }
+      }
+      .line:nth-child(3)
+      {
+        img
+        {
+          height: 65vh;
+        }
+      }
+      .line:nth-child(4)
+      {
+        img
+        {
+          height: 48vh;
+        }
       }
       .empty
       {

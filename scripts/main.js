@@ -27,11 +27,10 @@ natures.addEventListener(
     for (var k = 0; k < divs.length; k++) {
       divs[k].classList.remove('empty')
     }
-    img[3].style.height = '450px'
-    img[4].style.height = '450px'
-    img[5].style.height = '450px'
     current.classList.remove('current')
     natures.firstChild.classList.add('current')
+    document.querySelectorAll('.hover')[0].style.display = 'block'
+    document.querySelectorAll('.hover')[5].style.display = 'block'
   })
 
 ville.addEventListener(
@@ -56,6 +55,8 @@ ville.addEventListener(
     lines[3].classList.add('empty')
     current.classList.remove('current')
     ville.firstChild.classList.add('current')
+    document.querySelectorAll('.hover')[0].style.display = 'none'
+    document.querySelectorAll('.hover')[5].style.display = 'none'
   })
 
 
@@ -80,9 +81,9 @@ danse.addEventListener(
     if (lines[2].classList.contains('empty')) {
       lines[2].classList.remove('empty')
     }
-    img[3].style.height = '400px'
-    img[4].style.height = '400px'
-    img[5].style.height = '400px'
     lines[3].classList.add('empty')
     current.classList.remove('current')
-    danse.firstChild.classList.add('current')})
+    danse.firstChild.classList.add('current')
+    document.querySelectorAll('.hover')[0].style.display = 'block'
+    document.querySelectorAll('.hover')[5].style.display = 'block'
+  })

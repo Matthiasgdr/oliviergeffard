@@ -127,6 +127,9 @@
       justify-content: space-between; }
       .contener header nav p {
         font-weight: bold; }
+        .contener header nav p a {
+          color: black;
+          text-decoration: none; }
       .contener header nav ul {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -180,11 +183,12 @@
     flex-direction: row;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 95%; }
     .contener .line .hover {
       position: relative; }
       .contener .line .hover img {
-        height: 320px; }
+        height: 38vh; }
       .contener .line .hover .galery_text {
         position: absolute;
         bottom: 0;
@@ -201,11 +205,11 @@
     .contener .line .hover:hover .galery_text {
       opacity: 1; }
   .contener .line:nth-child(2) img {
-    height: 450px; }
+    height: 56vh; }
   .contener .line:nth-child(3) img {
-    height: 550px; }
+    height: 65vh; }
   .contener .line:nth-child(4) img {
-    height: 400px; }
+    height: 48vh; }
   .contener .empty {
     height: 0; }
   .contener .button {
