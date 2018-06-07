@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Olivier Geffard - Peintre Aquarelle Paris</title>
-        <link rel="stylesheet" href="style/magnific.css">
+        <link rel="shortcut icon" href="../images/favicon.jpg"/>
         <link rel="stylesheet" href="../style/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
@@ -13,12 +13,12 @@
                 <nav>
                     <p><a href="../index.html">Olivier Geffard</a></p> <!-- lien vers accueil à mettre-->
                     <ul>
-                        <li><a href="#">Galerie</a></li>
-                        <li><a href="#">Carnets de voyages</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="carnet.html">Carnets de voyages</a></li>
                         <li><a href="cours.html">Cours</a></li>
                         <li><a href="curiosite.html">Curiosités</a></li>
-                        <li><a href="#">Editions</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="edition.html">Editions</a></li>
+                        <li><a class="underline" href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -27,32 +27,32 @@
                 <p>Pour vous inscrire à un cours découverte et gratuit choisissez la date et l'heure en remplissant le formulaire ci-dessous : </p>
                 <form class="" action="index.html" method="post">
                     <div class="name">
-                        <input type="text" name="" value="" placeholder="Nom">
-                        <input type="text" name="" value="" placeholder="Prénom">
+                        <input type="text" id="name" name="" value="" placeholder="Nom">
+                        <input type="text" id="surname" name="" value="" placeholder="Prénom">
                     </div>
-                    <input type="email" class="inputmail" name="" value="" placeholder="Adresse e-mail">
+                    <input type="email" id="inputmail" class="inputmail" name="" value="" placeholder="Adresse e-mail">
                     <div class="date">
                         <label for="">Date désirée :</label>
                         <div class="choix_date">
                             <div class="">
                                 <input type="radio" id="contactChoice1"
-                                 name="contact" value="email">
+                                 name="contact" value="">
                                 <label for="contactChoice1">Mercredi (de 10h à 12h30)</label>
                             </div>
                             <div class="">
                                 <input type="radio" id="contactChoice2"
-                                 name="contact" value="telephone">
+                                 name="contact" value="">
                                 <label for="contactChoice2">Samedi (de 11h à 13h)</label>
                             </div>
                             <div class="">
                                 <input type="radio" id="contactChoice3"
-                                 name="contact" value="courrier">
+                                 name="contact" value="">
                                 <label for="contactChoice3">Samedi (de 14h à 16h)</label>
                             </div>
                         </div>
                     </div>
                 </form>
-                <a href="#">Envoyer</a>
+                <a id="mail" href="mailto:olivier@geffard.fr?subject=Prise de cours&amp;body=Le corps du message">Envoyer</a>
             </main>
             <footer>
                <div class="mail_network">
@@ -63,5 +63,6 @@
                <div class="mention">Mentions Légales - ©Olivier Geffard</div>
             </footer>
         </div>
+        <script src="../scripts/mail.js"></script>
     </body>
 </html>
