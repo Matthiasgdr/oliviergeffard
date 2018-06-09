@@ -324,6 +324,8 @@ footer {
         font-size: 1.2rem; }
     footer .bottom .mention {
       font-size: 0.8rem; }
+      footer .bottom .mention a {
+        color: white; }
 
 #instafeed {
   display: -webkit-box;
@@ -562,12 +564,29 @@ footer {
       -ms-flex-pack: justify;
       justify-content: space-between;
       margin-left: 15px; }
+      .contener_cours main .cours_contenue .center {
+        -ms-flex-item-align: center;
+        align-self: center; }
       .contener_cours main .cours_contenue p {
         width: 70%;
-        font-size: 1.5rem; }
+        font-size: 1.2rem; }
+        .contener_cours main .cours_contenue p a {
+          width: 140px;
+          margin: 10px;
+          display: inline-block;
+          border: none;
+          font-size: 0.8rem;
+          border-bottom: 2px solid;
+          padding: 0;
+          border-radius: 0;
+          color: #4A4A4A; }
+        .contener_cours main .cours_contenue p a:hover {
+          border-bottom: 4px solid #A4A4A4;
+          background: white;
+          color: #4A4A4A; }
       .contener_cours main .cours_contenue img {
-        width: 20%;
-        height: 30%; }
+        width: 30%;
+        height: 40%; }
     .contener_cours main a {
       text-decoration: none;
       text-align: center;
@@ -653,6 +672,9 @@ footer {
       -o-transition: all 0.2s;
       transition: all 0.2s; }
 
+.contener_curiosite main p {
+  margin: 10px; }
+
 .contener_curiosite main h2 {
   font-family: "Playfair Display", serif;
   color: #4C4C4C;
@@ -699,8 +721,20 @@ footer {
   .contener_curiosite main p:hover img {
     margin-left: 10px; }
 
-.contener_curiosite main p:nth-child(4) {
-  display: none; }
+.contener_curiosite main .curiosite_histoire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 15px; }
+  .contener_curiosite main .curiosite_histoire .curiosite_histoire_text {
+    width: 50%; }
 
 .contener_curiosite footer {
   font-family: "Montserrat", sans-serif;
@@ -818,7 +852,8 @@ footer {
       margin-bottom: 50px; }
       .contener_edition main .gallery .line img {
         width: 32%;
-        height: 60%; }
+        height: 60%;
+        border: 1px solid #4A4A4A; }
     .contener_edition main .gallery p {
       margin-left: 20px; }
       .contener_edition main .gallery p a {

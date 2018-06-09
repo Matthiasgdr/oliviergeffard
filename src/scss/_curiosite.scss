@@ -44,6 +44,10 @@
     }
     main
     {
+      p
+      {
+        margin: 10px;
+      }
       h2
       {
         font-family: $titlefont;
@@ -91,9 +95,16 @@
           }
         }
       }
-      p:nth-child(4)
+      .curiosite_histoire
       {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 15px;
+        .curiosite_histoire_text
+        {
+          width: 50%;
+        }
       }
     }
     footer{
