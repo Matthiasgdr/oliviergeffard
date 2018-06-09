@@ -27,6 +27,9 @@ natures.addEventListener(
     for (var k = 0; k < divs.length; k++) {
       divs[k].classList.remove('empty')
     }
+    img[0].classList.add('naturesHeight')
+    img[1].classList.add('naturesHeight')
+    img[2].classList.add('naturesHeight')
     current.classList.remove('current')
     natures.firstChild.classList.add('current')
     document.querySelectorAll('.hover')[0].style.display = 'block'

@@ -1134,6 +1134,8 @@ footer {
     width: 95%; }
     .contener .line .hover {
       position: relative; }
+      .contener .line .hover .naturesHeight {
+        height: 21vw; }
       .contener .line .hover img {
         height: 17vw; }
       .contener .line .hover .galery_text {
