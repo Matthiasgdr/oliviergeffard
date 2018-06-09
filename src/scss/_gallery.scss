@@ -92,7 +92,7 @@
 
             img
             {
-              height: 38vh;
+              height: 17vw;
             }
             .galery_text{
               position: absolute;
@@ -116,21 +116,28 @@
       {
         img
         {
-          height: 56vh;
+          height: 28vw;
         }
       }
       .line:nth-child(3)
       {
         img
         {
-          height: 65vh;
+          height: 30vw;
         }
       }
       .line:nth-child(4)
       {
         img
         {
-          height: 48vh;
+          height: 28vw;
+        }
+      }
+      .line:nth-child(5)
+      {
+        img
+        {
+          height: 20vw;
         }
       }
       .empty
