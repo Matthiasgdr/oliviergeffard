@@ -18,6 +18,6 @@ send.addEventListener(
     }
 
 
-    send.setAttribute('href',`mailto:olivier@geffard.fr?subject=Prise de cours mail&body=Bonjour,%0D%0A %0D%0A Je m'appelle ${name} ${surname}.%0D%0A Je souhaite prendre un cours le ${date}.%0D%0A Voici mon mail : ${clientmail}`)
+    send.setAttribute('href',`mailto:olivier@geffard.com?subject=Prise de cours mail&body=Bonjour,%0D%0A %0D%0A Je m'appelle ${name} ${surname}.%0D%0A Je souhaite prendre un cours le ${date}.%0D%0A Voici mon mail : ${clientmail}`)
   }
 )
