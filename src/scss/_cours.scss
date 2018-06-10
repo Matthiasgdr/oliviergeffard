@@ -78,8 +78,8 @@ main
     }
     p
     {
-      width: 70%;
-      font-size: 1.2rem;
+      width: 50%;
+      font-size: 1rem;
       a
       {
         width: 140px;
@@ -100,6 +100,15 @@ main
       }
     }
     img
+    {
+      width: 45%;
+      height: 40%;
+    }
+    .center
+    {
+      width: 60%;
+    }
+    .center+img
     {
       width: 30%;
       height: 40%;

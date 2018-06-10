@@ -232,7 +232,7 @@ main {
       margin-left: 20px;
       margin-top: 60px; }
       main .cours .cours_contenue img {
-        width: 30%;
+        width: 40%;
         height: 20%; }
       main .cours .cours_contenue p {
         width: 40%; }
@@ -568,8 +568,8 @@ footer {
         -ms-flex-item-align: center;
         align-self: center; }
       .contener_cours main .cours_contenue p {
-        width: 70%;
-        font-size: 1.2rem; }
+        width: 50%;
+        font-size: 1rem; }
         .contener_cours main .cours_contenue p a {
           width: 140px;
           margin: 10px;
@@ -585,6 +585,11 @@ footer {
           background: white;
           color: #4A4A4A; }
       .contener_cours main .cours_contenue img {
+        width: 45%;
+        height: 40%; }
+      .contener_cours main .cours_contenue .center {
+        width: 60%; }
+      .contener_cours main .cours_contenue .center + img {
         width: 30%;
         height: 40%; }
     .contener_cours main a {
