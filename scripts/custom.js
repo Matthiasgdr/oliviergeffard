@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-
     var userFeed = new Instafeed({
         get: 'user',
         userId: '6421824497',
@@ -23,9 +21,6 @@ $(document).ready(function() {
             enabled: true
         }
     });
-
-
-
 
 });
 
