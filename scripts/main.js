@@ -16,9 +16,8 @@ natures.addEventListener(
       img[i].setAttribute('src',``)
       img[i].setAttribute('alt',``)
       img[i].setAttribute('class',``)
-      img[2].classList.add(`optional`)
     }
-    for (var j = 0; j < 14; j++) {
+    for (var j = 0; j < 20; j++) {
       img[j].setAttribute('src',`../images/natures${j}.jpg`)
       img[j].setAttribute('alt',`peinture aquarelle`)
       /*******change le nom des oeuvres en hover*******/
@@ -48,13 +47,12 @@ ville.addEventListener(
       img[i].setAttribute('alt',``)
       img[i].setAttribute('class',``)
     }
-    for (var j = 0; j < 7; j++) {
+    for (var j = 0; j < 10; j++) {
       img[j].setAttribute('src',`../images/ville${j}.jpg`)
       img[j].setAttribute('alt',`peinture aquarelle`)
       /*******change le nom des oeuvres en hover*******/
       textGalery[j].innerHTML = `${villeHover[j]}`
     }
-    lines[3].classList.add('empty')
     current.classList.remove('current')
     ville.firstChild.classList.add('current')
 

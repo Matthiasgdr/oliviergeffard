@@ -13,7 +13,13 @@ let oeuvres = {
          "pots nature morte sepia",
          "St Solin De Conac",
          "jardin Bidassoa vue de la place Nadaud",
-         "foret bleue"
+         "foret bleue",
+         "Sousbois panoramique",
+         "estuaire avant l'orage",
+         "cabanne de jardinier",
+         "Eglise aout 13h",
+         "ecurie toscane",
+         "chene brounoix"
       ],
       "ville":[
         "perife de nuit",
@@ -22,7 +28,10 @@ let oeuvres = {
         "New-York bitume bleu",
         "ville vue des toits cheminée",
         "train rentre dans la ville",
-        "autoroute la nuit"
+        "autoroute la nuit",
+        "homme seul dans la rue",
+        "petite ceinture Menilmontant",
+        "bord du canal Ourcq"
       ],
       "danse":[
         "danse constellation",

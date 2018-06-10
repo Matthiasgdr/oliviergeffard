@@ -1166,6 +1166,10 @@ footer {
     height: 28vw; }
   .contener .line:nth-child(5) img {
     height: 20vw; }
+  .contener .line:nth-child(6) img {
+    height: 25vw; }
+  .contener .line:nth-child(8) img {
+    height: 29vw; }
   .contener .empty {
     height: 0; }
   .contener .button {
