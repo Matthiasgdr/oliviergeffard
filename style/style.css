@@ -178,7 +178,7 @@ main {
       margin-left: 20px;
       margin-top: 60px; }
       main .cours .cours_contenue img {
-        width: 30%;
+        width: 40%;
         height: 20%; }
       main .cours .cours_contenue p {
         width: 40%; }
@@ -422,8 +422,8 @@ footer {
       .contener_cours main .cours_contenue .center {
         align-self: center; }
       .contener_cours main .cours_contenue p {
-        width: 70%;
-        font-size: 1.2rem; }
+        width: 50%;
+        font-size: 1rem; }
         .contener_cours main .cours_contenue p a {
           width: 140px;
           margin: 10px;
@@ -439,6 +439,11 @@ footer {
           background: white;
           color: #4A4A4A; }
       .contener_cours main .cours_contenue img {
+        width: 45%;
+        height: 40%; }
+      .contener_cours main .cours_contenue .center {
+        width: 60%; }
+      .contener_cours main .cours_contenue .center + img {
         width: 30%;
         height: 40%; }
     .contener_cours main a {
@@ -841,8 +846,10 @@ footer {
     width: 95%; }
     .contener .line .hover {
       position: relative; }
+      .contener .line .hover .naturesHeight {
+        height: 21vw; }
       .contener .line .hover img {
-        height: 38vh; }
+        height: 17vw; }
       .contener .line .hover .galery_text {
         position: absolute;
         bottom: 0;
@@ -857,11 +864,17 @@ footer {
     .contener .line .hover:hover .galery_text {
       opacity: 1; }
   .contener .line:nth-child(2) img {
-    height: 56vh; }
+    height: 28vw; }
   .contener .line:nth-child(3) img {
-    height: 65vh; }
+    height: 30vw; }
   .contener .line:nth-child(4) img {
-    height: 48vh; }
+    height: 28vw; }
+  .contener .line:nth-child(5) img {
+    height: 20vw; }
+  .contener .line:nth-child(6) img {
+    height: 25vw; }
+  .contener .line:nth-child(8) img {
+    height: 29vw; }
   .contener .empty {
     height: 0; }
   .contener .button {

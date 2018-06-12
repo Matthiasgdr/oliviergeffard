@@ -1,8 +1,8 @@
 let oeuvres = {
       "natures":[
-         "batelier192",
+         "Batelier",
          "campagne anglaise",
-         "carte MDA188",
+         "batelier Arbre et vent",
          "monastère moine bleu",
          "nature morte bouteille Toscane",
          "nature morte rouge Toscane",
@@ -11,14 +11,27 @@ let oeuvres = {
          "pots aquarelle Joelle",
          "pots encre nature morte",
          "pots nature morte sepia",
-         "St Sorlin Deconac"
+         "St Solin De Conac",
+         "jardin Bidassoa vue de la place Nadaud",
+         "foret bleue",
+         "Sousbois panoramique",
+         "estuaire avant l'orage",
+         "cabanne de jardinier",
+         "Eglise aout 13h",
+         "ecurie toscane",
+         "chene brounoix"
       ],
       "ville":[
-        "",
+        "perife de nuit",
         "gare banlieue Paris",
         "ville tempera",
-        "ville voiture",
-        "ville vue des toits cheminée"
+        "New-York bitume bleu",
+        "ville vue des toits cheminée",
+        "train rentre dans la ville",
+        "autoroute la nuit",
+        "homme seul dans la rue",
+        "petite ceinture Menilmontant",
+        "bord du canal Ourcq"
       ],
       "danse":[
         "danse constellation",
@@ -26,7 +39,7 @@ let oeuvres = {
         "danse Pompei rencontre etoiles",
         "danse Pompei",
         "danse Pompei Supernova",
-        "DSCF5536",
-        "DSCF5537"
+        "pompei Calame brou de noix",
+        "constellation corps chaud"
       ]
 }

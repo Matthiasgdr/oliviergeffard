@@ -90,9 +90,11 @@
           .hover{
             position: relative;
 
-            img
-            {
-              height: 38vh;
+            .naturesHeight{
+              height: 21vw;
+            }
+            img{
+              height: 17vw;
             }
             .galery_text{
               position: absolute;
@@ -116,21 +118,42 @@
       {
         img
         {
-          height: 56vh;
+          height: 28vw;
         }
       }
       .line:nth-child(3)
       {
         img
         {
-          height: 65vh;
+          height: 30vw;
         }
       }
       .line:nth-child(4)
       {
         img
         {
-          height: 48vh;
+          height: 28vw;
+        }
+      }
+      .line:nth-child(5)
+      {
+        img
+        {
+          height: 20vw;
+        }
+      }
+      .line:nth-child(6)
+      {
+        img
+        {
+          height: 25vw;
+        }
+      }
+      .line:nth-child(8)
+      {
+        img
+        {
+          height: 29vw;
         }
       }
       .empty
