@@ -52,21 +52,21 @@
                     transition: all 0.2s;
                     }}}}}}
 
-  .image1 {
+  .slider_container {
     margin: 0 50px;
-
-  h3 {
-    font-family: $titlefont;
-    font-size: 2.8rem;
-    margin-top: 100px;
-  }
-
-
-  img {
-    height: 400px;
-    display: block;
-    width: 100%;
-  }
+      h3 {
+        font-family: $titlefont;
+        font-size: 2.8rem;
+        margin-top: 100px;
+    }
+      img {
+        height: 400px;
+        display: block;
+        width: 100%;
+      }
+      p{
+          margin: 20px 0px;
+      }
   }
   footer{
       font-family: $pfont;
