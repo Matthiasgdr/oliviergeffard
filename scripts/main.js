@@ -80,7 +80,6 @@ danse.addEventListener(
     if (lines[2].classList.contains('empty')) {
       lines[2].classList.remove('empty')
     }
-    lines[3].classList.add('empty')
     current.classList.remove('current')
     danse.firstChild.classList.add('current')
     document.querySelectorAll('.hover')[0].style.display = 'block'
