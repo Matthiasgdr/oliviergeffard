@@ -8,13 +8,32 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" type="text/css" href="../src/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body>
   <div class="contener_carnets">
     <div class="header">
+        <div class="hamburger">
+          <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+          <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+          </label>
+          <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+              <li>Olivier Geffard <span>Carnets de voyage</span></li>
+              <li><a href="../index.html">Accueil</a></li>
+              <li><a href="gallery.html">Galerie</a></li>
+              <li><a href="cours.html">Cours</a></li>
+              <li><a href="curiosite.html">Curiosités</a></li>
+              <li><a href="edition.html">Editions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
         <nav>
             <p><a href="../index.html">Olivier Geffard</a></p> <!-- lien vers accueil à mettre-->
             <ul>
@@ -28,6 +47,7 @@
         </nav>
     </div>
     <main>
+        <p class="turn_the_phone">Basculez votre téléphone en format paysage pour mieux profiter des images</p>
         <div class="slider_container">
             <h3>Casteldelpiano - Toscane</h3>
             <div class="slider gallery">

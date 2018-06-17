@@ -8,12 +8,18 @@
     justify-content: space-between;
     height: 50px;
     box-sizing: border-box;
+    @media screen and (max-width: $break-medium){
+      height: 0;
+    }
     nav {
       font-family: "Montserrat", sans-serif;
       font-size: 0.80rem;
       letter-spacing: 0.5px;
       display: flex;
       justify-content: space-between;
+      @media screen and (max-width: $break-medium){
+        display: none;
+      }
       p {
         font-weight: bold; }
         ul {
@@ -59,12 +65,18 @@
 main
 {
   margin-top: 50px;
+  @media screen and (max-width: $break-medium){
+    margin-top: 0;
+  }
   h2
   {
     font-family: $titlefont;
     color: #4C4C4C;
     font-size: 4.2rem;
     margin-bottom: 20px;
+    @media screen and (max-width: $break-small){
+      font-size: 2rem;
+    }
   }
   .cours_contenue
   {
@@ -72,6 +84,9 @@ main
     flex-direction: row;
     justify-content: space-between;
     margin-left: 15px;
+    @media screen and (max-width: $break-medium){
+      flex-direction: column;
+    }
     .center
     {
       align-self: center;
@@ -80,6 +95,12 @@ main
     {
       width: 50%;
       font-size: 1rem;
+      @media screen and (max-width: $break-medium){
+        width: 100%;
+      }
+      @media screen and (max-width: $break-medium){
+        font-size: 0.8rem;
+      }
       a
       {
         width: 140px;
@@ -103,15 +124,26 @@ main
     {
       width: 45%;
       height: 40%;
+      @media screen and (max-width: $break-medium){
+        width: 100%;
+        margin-top: 10px;
+      }
     }
     .center
     {
       width: 60%;
+      @media screen and (max-width: $break-medium){
+      width: 100%;
+      }
     }
     .center+img
     {
       width: 30%;
       height: 40%;
+      @media screen and (max-width: $break-medium){
+        width: 50%;
+        margin: 10px auto;
+      }
     }
   }
   a
@@ -144,29 +176,44 @@ main
       FOOTER
 
 ********************/
-  footer{
-      font-family: $pfont;
-      display: flex;
-      justify-content: space-between;
-      margin: 60px 40px 20px 40px;
-      background: none;
-      color: #4A4A4A;
-      .mail_network{
-          display: flex;
-          align-items: center;
-          font-size: 1.2rem;
-          i{
-              margin: 0 10px;
-              color: #4A4A4A;
-          }
-          .mail{
-              font-size: 1.2rem;
-          }
-      }
-      .mention{
+footer{
+    font-family: $pfont;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 40px 20px 40px;
+    background: none;
+    color: #4A4A4A;
+    @media screen and (max-width: $break-small){
+      flex-direction: column;
+      margin: 20px 0 0 0;
+    }
+    .mail_network{
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        @media screen and (max-width: $break-small){
           font-size: 0.8rem;
+          margin: 0 5px;
+        }
+        i{
+            margin: 0 10px;
+            color: #4A4A4A;
+        }
+        .mail{
+            font-size: 1.2rem;
+            @media screen and (max-width: $break-small){
+              font-size: 0.8rem;
+            }
+        }
+    }
+    .mention{
+        font-size: 0.8rem;
+        @media screen and (max-width: $break-small){
+          font-size: 0.6rem;
+          padding-left: 10px;
+          margin-top: 10px;
+        }
+    }
 
-  }
-
-  }
+}
 }
