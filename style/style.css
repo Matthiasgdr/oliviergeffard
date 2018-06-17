@@ -177,6 +177,8 @@ main {
     @media screen and (max-width: 380px) {
       main h3 {
         font-size: 1.5rem; } }
+  main strong {
+    font-weight: normal; }
   main .galerie .galerie_contenue {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -635,16 +637,17 @@ footer {
   @media screen and (max-width: 380px) {
     .contener_carnets .slider_container {
       margin: 0 10px; } }
-  .contener_carnets .slider_container h3 {
+  .contener_carnets .slider_container h2 {
     font-family: "Playfair Display", serif;
     font-size: 2.8rem;
-    margin-top: 100px; }
+    margin-top: 100px;
+    color: #4C4C4C; }
     @media screen and (max-width: 1024px) {
-      .contener_carnets .slider_container h3 {
+      .contener_carnets .slider_container h2 {
         font-size: 2.2rem;
         margin-top: 10px; } }
     @media screen and (max-width: 380px) {
-      .contener_carnets .slider_container h3 {
+      .contener_carnets .slider_container h2 {
         font-size: 2rem; } }
   .contener_carnets .slider_container img {
     height: 400px;
@@ -704,6 +707,9 @@ footer {
         font-size: 0.6rem;
         padding-left: 10px;
         margin-top: 10px; } }
+
+.contener_carnets strong {
+  font-weight: normal; }
 
 .contener_cours {
   /********************
@@ -791,13 +797,15 @@ footer {
     @media screen and (max-width: 1024px) {
       .contener_cours main {
         margin-top: 0; } }
-    .contener_cours main h2 {
+    .contener_cours main strong {
+      font-weight: normal; }
+    .contener_cours main h1 {
       font-family: "Playfair Display", serif;
       color: #4C4C4C;
       font-size: 4.2rem;
       margin-bottom: 20px; }
       @media screen and (max-width: 380px) {
-        .contener_cours main h2 {
+        .contener_cours main h1 {
           font-size: 2rem; } }
     .contener_cours main .cours_contenue {
       display: -webkit-box;
@@ -1334,13 +1342,15 @@ footer {
 
 .contener_contact main {
   padding: 40px; }
-  .contener_contact main h2 {
+  .contener_contact main strong {
+    font-weight: normal; }
+  .contener_contact main h1 {
     font-family: "Playfair Display", serif;
     color: #4C4C4C;
     font-size: 3.4rem;
     margin: 0 0 20px 0; }
     @media screen and (max-width: 380px) {
-      .contener_contact main h2 {
+      .contener_contact main h1 {
         font-size: 2rem; } }
   .contener_contact main form {
     margin: 50px 0px;
@@ -1506,11 +1516,13 @@ footer {
       -webkit-box-pack: start;
       -ms-flex-pack: start;
       justify-content: flex-start; }
-      .contener .bigMenu ul li a {
-        text-decoration: none;
-        color: #a3a3a3;
-        font-size: 5.7vw;
-        margin-left: 2.2vw; }
+      .contener .bigMenu ul li h2 {
+        font-weight: normal; }
+        .contener .bigMenu ul li h2 a {
+          text-decoration: none;
+          color: #a3a3a3;
+          font-size: 5.7vw;
+          margin-left: 2.2vw; }
       .contener .bigMenu ul a:hover {
         color: black; }
       .contener .bigMenu ul a.current {

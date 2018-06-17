@@ -64,14 +64,18 @@
 }
     main{
             padding: 40px;
-              h2{
-                font-family: $titlefont;
-                color: #4C4C4C;
-                font-size: 3.4rem;
-                margin:0 0 20px 0;
-                @media screen and (max-width: $break-small){
-                  font-size: 2rem;
-                }
+            strong
+            {
+              font-weight: normal;
+            }
+            h1{
+              font-family: $titlefont;
+              color: #4C4C4C;
+              font-size: 3.4rem;
+              margin:0 0 20px 0;
+              @media screen and (max-width: $break-small){
+                font-size: 2rem;
+              }
               }
               form{
                   margin: 50px 0px;

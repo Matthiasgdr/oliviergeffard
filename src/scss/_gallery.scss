@@ -55,12 +55,16 @@
             list-style: none;
             justify-content: flex-start;
             li{
+              h2
+              {
+                font-weight: normal;
                 a{
                     text-decoration: none;
                     color: #a3a3a3;
                     font-size: 5.7vw;
                     margin-left: 2.2vw;
                 }
+              }
             }
             a:hover{
                   color: black;

@@ -68,7 +68,11 @@ main
   @media screen and (max-width: $break-medium){
     margin-top: 0;
   }
-  h2
+  strong
+  {
+    font-weight: normal;
+  }
+  h1
   {
     font-family: $titlefont;
     color: #4C4C4C;
