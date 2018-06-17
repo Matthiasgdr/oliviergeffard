@@ -1,6 +1,6 @@
 .contener_edition
 {
-    .header {
+    header {
       color: black;
       padding: 26px 42px;
       display: flex;
@@ -8,12 +8,18 @@
       justify-content: space-between;
       height: 50px;
       box-sizing: border-box;
+      @media screen and (max-width: $break-medium){
+        height: 0;
+      }
       nav {
         font-family: "Montserrat", sans-serif;
         font-size: 0.80rem;
         letter-spacing: 0.5px;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: $break-medium){
+          display: none;
+        }
         p {
           font-weight: bold; }
           ul {
@@ -58,6 +64,9 @@
             color: #4C4C4C;
             font-size: 3.4rem;
             margin: 0 0 20px 0;
+            @media screen and (max-width: $break-small){
+              font-size: 2rem;
+            }
           }
           .first_picture{
               width: 100%;
@@ -70,6 +79,9 @@
                 flex-direction: row;
                 justify-content: space-around;
                 margin-bottom: 50px;
+                @media screen and (max-width: $break-small){
+                  margin-bottom: 5px;
+                }
                 img
                 {
                   width: 32%;
@@ -91,6 +103,15 @@
             }
           }
         }
+        .prix
+        {
+          p
+          {
+            @media screen and (max-width: $break-small){
+              font-size: 1rem;
+            }
+          }
+        }
     }
         footer{
             font-family: $pfont;
@@ -99,20 +120,36 @@
             margin: 60px 40px 20px 40px;
             background: none;
             color: #4A4A4A;
+            @media screen and (max-width: $break-small){
+              flex-direction: column;
+              margin: 20px 0 0 0;
+            }
             .mail_network{
                 display: flex;
                 align-items: center;
                 font-size: 1.2rem;
+                @media screen and (max-width: $break-small){
+                  font-size: 0.8rem;
+                  margin: 0 5px;
+                }
                 i{
                     margin: 0 10px;
                     color: #4A4A4A;
                 }
                 .mail{
                     font-size: 1.2rem;
+                    @media screen and (max-width: $break-small){
+                      font-size: 0.8rem;
+                    }
                 }
             }
             .mention{
                 font-size: 0.8rem;
+                @media screen and (max-width: $break-small){
+                  font-size: 0.6rem;
+                  padding-left: 10px;
+                  margin-top: 10px;
+                }
         }
     }
 }

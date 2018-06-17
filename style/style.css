@@ -682,6 +682,9 @@ footer {
     height: 50px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+    @media screen and (max-width: 1024px) {
+      .contener_cours .header {
+        height: 0; } }
     .contener_cours .header nav {
       font-family: "Montserrat", sans-serif;
       font-size: 0.80rem;
@@ -692,6 +695,9 @@ footer {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
+      @media screen and (max-width: 1024px) {
+        .contener_cours .header nav {
+          display: none; } }
       .contener_cours .header nav p {
         font-weight: bold; }
       .contener_cours .header nav ul {
@@ -732,11 +738,17 @@ footer {
             transition: all 0.2s; }
   .contener_cours main {
     margin-top: 50px; }
+    @media screen and (max-width: 1024px) {
+      .contener_cours main {
+        margin-top: 0; } }
     .contener_cours main h2 {
       font-family: "Playfair Display", serif;
       color: #4C4C4C;
       font-size: 4.2rem;
       margin-bottom: 20px; }
+      @media screen and (max-width: 380px) {
+        .contener_cours main h2 {
+          font-size: 2rem; } }
     .contener_cours main .cours_contenue {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -749,12 +761,24 @@ footer {
       -ms-flex-pack: justify;
       justify-content: space-between;
       margin-left: 15px; }
+      @media screen and (max-width: 1024px) {
+        .contener_cours main .cours_contenue {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column; } }
       .contener_cours main .cours_contenue .center {
         -ms-flex-item-align: center;
         align-self: center; }
       .contener_cours main .cours_contenue p {
         width: 50%;
         font-size: 1rem; }
+        @media screen and (max-width: 1024px) {
+          .contener_cours main .cours_contenue p {
+            width: 100%; } }
+        @media screen and (max-width: 1024px) {
+          .contener_cours main .cours_contenue p {
+            font-size: 0.8rem; } }
         .contener_cours main .cours_contenue p a {
           width: 140px;
           margin: 10px;
@@ -772,11 +796,22 @@ footer {
       .contener_cours main .cours_contenue img {
         width: 45%;
         height: 40%; }
+        @media screen and (max-width: 1024px) {
+          .contener_cours main .cours_contenue img {
+            width: 100%;
+            margin-top: 10px; } }
       .contener_cours main .cours_contenue .center {
         width: 60%; }
+        @media screen and (max-width: 1024px) {
+          .contener_cours main .cours_contenue .center {
+            width: 100%; } }
       .contener_cours main .cours_contenue .center + img {
         width: 30%;
         height: 40%; }
+        @media screen and (max-width: 1024px) {
+          .contener_cours main .cours_contenue .center + img {
+            width: 50%;
+            margin: 10px auto; } }
     .contener_cours main a {
       text-decoration: none;
       text-align: center;
@@ -809,6 +844,13 @@ footer {
     margin: 60px 40px 20px 40px;
     background: none;
     color: #4A4A4A; }
+    @media screen and (max-width: 380px) {
+      .contener_cours footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 20px 0 0 0; } }
     .contener_cours footer .mail_network {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -817,13 +859,25 @@ footer {
       -ms-flex-align: center;
       align-items: center;
       font-size: 1.2rem; }
+      @media screen and (max-width: 380px) {
+        .contener_cours footer .mail_network {
+          font-size: 0.8rem;
+          margin: 0 5px; } }
       .contener_cours footer .mail_network i {
         margin: 0 10px;
         color: #4A4A4A; }
       .contener_cours footer .mail_network .mail {
         font-size: 1.2rem; }
+        @media screen and (max-width: 380px) {
+          .contener_cours footer .mail_network .mail {
+            font-size: 0.8rem; } }
     .contener_cours footer .mention {
       font-size: 0.8rem; }
+      @media screen and (max-width: 380px) {
+        .contener_cours footer .mention {
+          font-size: 0.6rem;
+          padding-left: 10px;
+          margin-top: 10px; } }
 
 .contener_curiosite header {
   height: 100px; }
@@ -899,6 +953,9 @@ footer {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     margin-bottom: 50px; }
+    @media screen and (max-width: 380px) {
+      .contener_curiosite main .pictures .line {
+        margin-bottom: 5px; } }
     .contener_curiosite main .pictures .line img {
       width: 30%;
       height: 60%; }
@@ -993,7 +1050,7 @@ footer {
         padding-left: 10px;
         margin-top: 10px; } }
 
-.contener_edition .header {
+.contener_edition header {
   color: black;
   padding: 26px 42px;
   display: -webkit-box;
@@ -1009,7 +1066,10 @@ footer {
   height: 50px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-  .contener_edition .header nav {
+  @media screen and (max-width: 1024px) {
+    .contener_edition header {
+      height: 0; } }
+  .contener_edition header nav {
     font-family: "Montserrat", sans-serif;
     font-size: 0.80rem;
     letter-spacing: 0.5px;
@@ -1019,23 +1079,26 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-    .contener_edition .header nav p {
+    @media screen and (max-width: 1024px) {
+      .contener_edition header nav {
+        display: none; } }
+    .contener_edition header nav p {
       font-weight: bold; }
-    .contener_edition .header nav ul {
+    .contener_edition header nav ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       list-style: none; }
-      .contener_edition .header nav ul li:hover a::after {
+      .contener_edition header nav ul li:hover a::after {
         width: 100%;
         left: 0; }
-      .contener_edition .header nav ul li {
+      .contener_edition header nav ul li {
         margin: 0 10px; }
-        .contener_edition .header nav ul li a {
+        .contener_edition header nav ul li a {
           text-decoration: none;
           color: black;
           position: relative; }
-          .contener_edition .header nav ul li a::after {
+          .contener_edition header nav ul li a::after {
             content: '';
             position: absolute;
             background-color: black;
@@ -1046,7 +1109,7 @@ footer {
             -webkit-transition: all 0.2s;
             -o-transition: all 0.2s;
             transition: all 0.2s; }
-        .contener_edition .header nav ul li a.underline::after {
+        .contener_edition header nav ul li a.underline::after {
           content: '';
           position: absolute;
           background-color: black;
@@ -1065,6 +1128,9 @@ footer {
     color: #4C4C4C;
     font-size: 3.4rem;
     margin: 0 0 20px 0; }
+    @media screen and (max-width: 380px) {
+      .contener_edition main h2 {
+        font-size: 2rem; } }
   .contener_edition main .first_picture {
     width: 100%; }
   .contener_edition main .gallery {
@@ -1080,6 +1146,9 @@ footer {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin-bottom: 50px; }
+      @media screen and (max-width: 380px) {
+        .contener_edition main .gallery .line {
+          margin-bottom: 5px; } }
       .contener_edition main .gallery .line img {
         width: 32%;
         height: 60%;
@@ -1092,6 +1161,9 @@ footer {
         border-bottom: 1px solid #4C4C4C; }
       .contener_edition main .gallery p:hover img {
         margin-left: 10px; }
+  @media screen and (max-width: 380px) {
+    .contener_edition main .prix p {
+      font-size: 1rem; } }
 
 .contener_edition footer {
   font-family: "Montserrat", sans-serif;
@@ -1104,6 +1176,13 @@ footer {
   margin: 60px 40px 20px 40px;
   background: none;
   color: #4A4A4A; }
+  @media screen and (max-width: 380px) {
+    .contener_edition footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 20px 0 0 0; } }
   .contener_edition footer .mail_network {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1112,13 +1191,25 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     font-size: 1.2rem; }
+    @media screen and (max-width: 380px) {
+      .contener_edition footer .mail_network {
+        font-size: 0.8rem;
+        margin: 0 5px; } }
     .contener_edition footer .mail_network i {
       margin: 0 10px;
       color: #4A4A4A; }
     .contener_edition footer .mail_network .mail {
       font-size: 1.2rem; }
+      @media screen and (max-width: 380px) {
+        .contener_edition footer .mail_network .mail {
+          font-size: 0.8rem; } }
   .contener_edition footer .mention {
     font-size: 0.8rem; }
+    @media screen and (max-width: 380px) {
+      .contener_edition footer .mention {
+        font-size: 0.6rem;
+        padding-left: 10px;
+        margin-top: 10px; } }
 
 .contener_contact .header {
   color: black;
@@ -1136,6 +1227,9 @@ footer {
   height: 50px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  @media screen and (max-width: 1024px) {
+    .contener_contact .header {
+      height: 0; } }
   .contener_contact .header nav {
     font-family: "Montserrat", sans-serif;
     font-size: 0.80rem;
@@ -1146,6 +1240,9 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+    @media screen and (max-width: 1024px) {
+      .contener_contact .header nav {
+        display: none; } }
     .contener_contact .header nav p {
       font-weight: bold; }
     .contener_contact .header nav ul {
@@ -1192,6 +1289,9 @@ footer {
     color: #4C4C4C;
     font-size: 3.4rem;
     margin: 0 0 20px 0; }
+    @media screen and (max-width: 380px) {
+      .contener_contact main h2 {
+        font-size: 2rem; } }
   .contener_contact main form {
     margin: 50px 0px;
     font-size: 1.2rem; }
@@ -1216,6 +1316,12 @@ footer {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
+      @media screen and (max-width: 380px) {
+        .contener_contact main form .date {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column; } }
       .contener_contact main form .date .choix_date {
         margin: 0 100px;
         display: -webkit-box;
@@ -1225,6 +1331,9 @@ footer {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column; }
+        @media screen and (max-width: 380px) {
+          .contener_contact main form .date .choix_date {
+            margin: 5px 10px; } }
   .contener_contact main a {
     text-decoration: none;
     text-align: center;
@@ -1258,6 +1367,13 @@ footer {
   margin: 60px 40px 20px 40px;
   background: none;
   color: #4A4A4A; }
+  @media screen and (max-width: 380px) {
+    .contener_contact footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 20px 0 0 0; } }
   .contener_contact footer .mail_network {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1266,13 +1382,25 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     font-size: 1.2rem; }
+    @media screen and (max-width: 380px) {
+      .contener_contact footer .mail_network {
+        font-size: 0.8rem;
+        margin: 0 5px; } }
     .contener_contact footer .mail_network i {
       margin: 0 10px;
       color: #4A4A4A; }
     .contener_contact footer .mail_network .mail {
       font-size: 1.2rem; }
+      @media screen and (max-width: 380px) {
+        .contener_contact footer .mail_network .mail {
+          font-size: 0.8rem; } }
   .contener_contact footer .mention {
     font-size: 0.8rem; }
+    @media screen and (max-width: 380px) {
+      .contener_contact footer .mention {
+        font-size: 0.6rem;
+        padding-left: 10px;
+        margin-top: 10px; } }
 
 .contener {
   position: relative;
