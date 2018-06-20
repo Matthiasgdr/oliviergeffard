@@ -30,7 +30,7 @@ natures.addEventListener(
     img[1].classList.add('naturesHeight')
     img[2].classList.add('naturesHeight')
     current.classList.remove('current')
-    natures.firstChild.classList.add('current')
+    natures.firstChild.firstChild.classList.add('current')
     document.querySelectorAll('.hover')[0].style.display = 'block'
     document.querySelectorAll('.hover')[5].style.display = 'block'
   })
@@ -54,7 +54,7 @@ ville.addEventListener(
       textGalery[j].innerHTML = `${villeHover[j]}`
     }
     current.classList.remove('current')
-    ville.firstChild.classList.add('current')
+    ville.firstChild.firstChild.classList.add('current')
 
   })
 
@@ -81,7 +81,7 @@ danse.addEventListener(
       lines[2].classList.remove('empty')
     }
     current.classList.remove('current')
-    danse.firstChild.classList.add('current')
+    danse.firstChild.firstChild.classList.add('current')
     document.querySelectorAll('.hover')[0].style.display = 'block'
     document.querySelectorAll('.hover')[5].style.display = 'block'
   })

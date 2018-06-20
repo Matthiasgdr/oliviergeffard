@@ -72,7 +72,7 @@ header{
         width: 90%;
       }
       @media screen and (max-width: $break-small){
-        top: 14vh;
+        top: 9vh;
       }
           .description{
             max-width: 460px;
@@ -84,6 +84,7 @@ header{
             @media screen and (max-width: $break-small){
               max-width: 200px;
               margin-bottom: 0;
+              font-weight: normal;
             }
 
               h1{
@@ -184,6 +185,9 @@ header{
         }
         .galerie
         {
+          @media screen and (max-width: $break-small){
+            margin-top: 60px;
+          }
           .galerie_contenue
           {
             display: flex;
