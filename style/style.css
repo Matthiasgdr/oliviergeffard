@@ -662,7 +662,7 @@ footer {
         height: 300px; } }
     @media screen and (max-width: 380px) {
       .contener_carnets .slider_container img {
-        height: 200px; } }
+        height: 150px; } }
   .contener_carnets .slider_container p {
     margin: 50px 0px; }
 
